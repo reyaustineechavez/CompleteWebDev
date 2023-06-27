@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lato-Lato</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-xxl bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">L A T O</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#pricing-section">PRICING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#training-table">TRAIN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#contact-section">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="bg-video-wrap">
+      <video id="myVideo" src="/media/lato.mp4" loop muted autoplay></video>
+    </div>
+    <div class="container col-xxl-8 px-4 py-5 hero-text">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-lg-6">
+          <h1 class="xx display-5 fw-bold lh-1 mb-3">Buy LATO today!</h1>
+          <p class="lead">LATO is not just an ordinary newton yo-yo; it's a revolution in the world of skill toys. Designed for both beginners and professional players, LATO offers an unmatched spinning experience and endless fun. With its high-quality materials, precision engineering, and sleek design, LATO is the epitome of craftsmanship.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" onclick="scrollToSection('pricing-section')" class="btn btn-primary btn-lg px-4 me-md-2">Shop</button>
+            <button type="button" onclick="scrollToSection('training-table')" class="btn btn-outline-secondary btn-lg px-4">Train with us!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing-section" class="pricing-plans">
+    
+    <div class="pricing-card basic">
+
+      <div class="heading">
+        <h4>BASIC LATO</h4>
+        <p>for beginners</p>
+      </div>
+      <p class="price">
+        PHP 35.00
+      </p>
+      <ul class="features">
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>Cash on Delivery</strong>
+        </li>
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>3 Colors available</strong> 
+        </li>
+      </ul>
+      <button class="cta-btn">SELECT</button>
+    </div>
+    <div class="pricing-card standard">
+      <div class="heading">
+        <h4>STANDARD LATO</h4>
+        <p>for advanced players</p>
+      </div>
+      <p class="price">
+        PHP 50.00
+      </p>
+      <ul class="features">
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>Cash on delivery</strong>
+        </li>
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>6 Colors available</strong> 
+        </li>
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>Free pouch bag/case</strong>
+        </li>
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>3 days warranty</strong>
+        </li>
+      </ul>
+      <button class="cta-btn">SELECT</button>
+    </div>
+    <div class="pricing-card premium">
+      <div class="heading">
+        <h4>PRO LATO</h4>
+        <p>for professional and competing users</p>
+      </div>
+      <p class="price">
+        PHP 100.00
+      </p>
+      <ul class="features">
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>Cash on delivery or Bank transfer</strong>
+        </li>
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>10 Colors available</strong>
+        </li>
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>Exclusive fireball design </strong>
+        </li>
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>Free 3 months training</strong>
+        </li>
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>1 Exclusive coach</strong>
+        </li>
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>Free pouch bag</strong>
+        </li>
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <strong>Free 2 spare balls</strong>
+        </li>
+      </ul>
+      <button class="cta-btn">SELECT</button>
+    </div>
+
+    
+</section>
+<h2 class="text-center p-3 mb-3">Training Offers</h2>
+  <section id="training-table" class="container-lg p-3 mb-3 bg-secondary text-white">
+    <div class="table-div">
+
+      <table class="table table-bordered table-dark">
+        <thead>
+          <tr>
+            <th scope="col"><h4><b>Training Packages</b></h4></th>
+            <th scope="col"><h4><b>You'll get</b></h4></th>
+            <th scope="col"><h4><b>Months</b></h4></th>
+            <th scope="col"><h4><b>Monthly</b></h4></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Basic Package</th>
+            <td>FREE 2 Basic Lato with Random Coach</td>
+            <td>3 Month</td>
+            <td>PHP 149.00</td>
+          </tr>
+          <tr>
+            <th scope="row">Advanced Package</th>
+            <td>FREE 4 Standard Lato with 1 Exclusive Coach</td>
+            <td>6 Months</td>
+            <td>PHP 249.00</td>
+          </tr>
+          <tr>
+            <th scope="row">Pro Package</th>
+            <td>FREE 4 PRO Lato with 1 Exclusive Coach and 1 Trainer</td>
+            <td>12 Months</td>
+            <td>PHP 449.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="contact-section" class="container-fluid bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Contact Us</h3>
+          <p>If you have any questions or inquiries, feel free to reach out to us using the contact information below.</p>
+          <ul class="contact-info">
+            <li><i class="fa-solid fa-envelope"></i> Email: hello@lato.com</li>
+            <li><i class="fa-solid fa-phone"></i> Phone: +63 917-634-9640</li>
+            <li><i class="fa-solid fa-map-marker"></i> Address: Juan Abasolo Subd. Whiteroad Brgy Inayawan, Cebu City, PH</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Send Us a Message</h3>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="text-white text-center bg-dark border-bottom border-bottom-dark">
+      <p>&copy; 2023 Lato-Lato. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="/script/script.js"></script>
+</body>
+
+</html>
